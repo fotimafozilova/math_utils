@@ -1,4 +1,4 @@
-import 'package:math_utils_n13/math_utils_n13.dart';
+import '../lib/math_utils_n13.dart';
 
 void main() {
   print(add(2, 3)); // 5
