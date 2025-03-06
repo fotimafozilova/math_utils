@@ -1,7 +1,10 @@
 name: math_utils
 description: A useful Dart library for mathematical operations.
-version: 0.0.1
+version: 1.0.0
 homepage:
+repository:
+  type: git
+  url: https://github.com/amirovsunnat/math_utils
 
 environment:
   sdk: ^3.6.0
