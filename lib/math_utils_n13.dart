@@ -13,11 +13,20 @@ double divide(int a, int b) {
   return a / b;
 }
 
+/// son kvadratini topish
+double to2SecondDegree(double a) => a * a;
+
+/// Son kubnini topish
+double to3ThirdDegree(double a) => a * a * a;
+
 /// Faktorial hisoblash funksiyasi
 int factorial(int n) {
   if (n < 0) throw ArgumentError('Manfiy son uchun faktorial mavjud emas');
   return n == 0 ? 1 : n * factorial(n - 1);
 }
+
+/// Sonlarning modini topish
+int tomodNumber(int a, int b) => a % b;
 
 /// Sonlar ro'yxatining o‘rtacha qiymatini hisoblash
 double average(List<int> numbers) {
@@ -32,3 +41,9 @@ double toDegrees(double radians) => radians * (180 / 3.141592653589793);
 
 /// Graduslarni radianlarga aylantirish
 double toRadians(double degrees) => degrees * (3.141592653589793 / 180);
+
+///aylana yuzasini topish
+double toSquare(int radius) => radius * radius * 3.141592653589793;
+
+///aylana uzunligini topish
+double toLenght(int radius) => 2 * radius * 3.141592653589793;
