@@ -47,3 +47,14 @@ double toSquare(int radius) => radius * radius * 3.141592653589793;
 
 ///aylana uzunligini topish
 double toLenght(int radius) => 2 * radius * 3.141592653589793;
+
+
+/// sonnig juft yoki toqligini topish 
+
+String everOrOdd (int a ){
+  if (a % 2 == 0) {
+    return 'Juft';
+  } else {
+    return 'Toq';
+  }
+}
